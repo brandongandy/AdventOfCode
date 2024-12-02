@@ -11,8 +11,6 @@ internal class Program
         var day = args.ElementAtOrDefault(0);
         var fileInput = args.ElementAtOrDefault(1);
 
-        day ??= "01";
-
         if (day is null)
         {
             Console.WriteLine("Cannot run AOC: No Day provided.");
