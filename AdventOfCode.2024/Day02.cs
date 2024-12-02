@@ -9,13 +9,19 @@ namespace AdventOfCode.Y24;
 
 internal class Day02 : Day
 {
-  public override string Part1()
-  {
-    throw new NotImplementedException();
-  }
+    private long[] Levels { get; }
+    public Day02(string input)
+    {
 
-  public override string Part2()
-  {
-    throw new NotImplementedException();
-  }
+    }
+
+    public override string Part1()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override string Part2()
+    {
+        throw new NotImplementedException();
+    }
 }
