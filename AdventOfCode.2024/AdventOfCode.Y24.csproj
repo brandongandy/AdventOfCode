@@ -8,4 +8,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\day01.txt" />
+    <None Remove="Assets\day02.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\day01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\day02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdventOfCode\AdventOfCode.csproj" />
+  </ItemGroup>
+
 </Project>
