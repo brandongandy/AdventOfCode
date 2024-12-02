@@ -2,6 +2,6 @@
 
 public abstract class Day
 {
-    public abstract string Part1();
-    public abstract string Part2();
+  public abstract string Part1();
+  public abstract string Part2();
 }

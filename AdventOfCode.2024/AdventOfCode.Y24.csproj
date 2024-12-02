@@ -3,19 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>AdventOfCode._2024</RootNamespace>
+    <RootNamespace>AdventOfCode.Y24</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="Assets\day01.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Assets\day01.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
 
 </Project>
